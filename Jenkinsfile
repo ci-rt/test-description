@@ -3,7 +3,7 @@
  * CI-RT default Jenkinsfile
  */
 
-@Library('CI-RT@master') _
+@Library('CI-RT@releases/v1.0') _
 
 CIRTscheduler {
 	/*
