@@ -1,0 +1,15 @@
+# Environment for generictest
+#
+# The following environment variables must be set:
+# @SCRIPT:	path to script relative to root of test-description
+#
+# This environment variable(s) can stay empty
+# @GENERIC_*:	variables which are required for the script (enables
+# 		reusability of a single script); variables outside of
+#		'GENERIC_' namespace are not allowed
+#
+
+SCRIPT=generictest/test.sh
+
+GENERIC_A="A parameter"
+GENERIC_B="Another parameter"

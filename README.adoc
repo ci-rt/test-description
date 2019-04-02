@@ -73,6 +73,12 @@ Jenkinsfile		  (minimal Jenkinsfile with default parameters of
 	iommu.list	  (list with all cyclictests for a target such as iommu)
 	idle		  (environment setting for a specific cyclictest)
 
++-generictest		  (generictest settings)
+	iommu.list	  (list with all generictests for a target such as iommu)
+	test.sh		  (test script mentioned in the environment settings)
+	+-iommu		  (generictest settings for a target)
+		simple	  (environment setting for a specific generictest)
+
 +-patches		  (folder for quilt patche queue for kernel source(dtb
 			   and specific drivers only))
 ----

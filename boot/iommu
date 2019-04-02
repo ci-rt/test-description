@@ -10,3 +10,4 @@ CONFIG=x86/x86_64def_e1000e
 OVERLAY=RT-full
 TARGET=iommu
 CYCLICTEST=cyclictest/iommu.list
+GENERICTEST=generictest/iommu.list
